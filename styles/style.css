@@ -299,7 +299,7 @@ nav ul {
     width: 100%;
   }
   nav {
-    margin: 1.7rem 3rem;
+    margin: 1.7rem auto;
   }
   nav .logo {
     display: -webkit-box;
@@ -324,7 +324,7 @@ nav ul {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 60rem;
             flex: 1 1 60rem;
-    margin: 2rem 0rem;
+    margin: 2rem auto;
   }
   .intro-text {
     margin-top: 5rem;
@@ -332,6 +332,9 @@ nav ul {
   }
   .intro-images {
     text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .intro-social {
     display: -webkit-box;

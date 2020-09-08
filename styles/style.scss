@@ -43,7 +43,7 @@ $gray-text: #2c2c2c;
     width: 100%;
   }
   nav {
-    margin: 1.7rem 3rem;
+    margin: 1.7rem auto;
     .logo {
       @include flex(center, center, column);
       flex: 1 1 20rem;
@@ -51,7 +51,7 @@ $gray-text: #2c2c2c;
     }
     ul {
       flex: 1 1 60rem;
-      margin: 2rem 0rem;
+      margin: 2rem auto;
     }
   }
   .intro-text {
@@ -60,7 +60,9 @@ $gray-text: #2c2c2c;
   }
 
   .intro-images {
+    // justify-content: center;
     text-align: center;
+    align-items: center;
   }
 
   .intro-social {
