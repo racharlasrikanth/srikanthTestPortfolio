@@ -22,7 +22,7 @@
           <h1>Srikanth</h1>
         </div>
         <ul>
-          <li><a href="../index.html">Home</a></li>
+          <li><a href="../">Home</a></li>
           <li><a href="../projects/">Projects</a></li>
           <li><a class="active" href="./index.html">Contact</a></li>
         </ul>
@@ -30,14 +30,32 @@
     </header>
 
     <section class="form-section">
-      <form action="">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" required />
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" required />
-        <label for="message">Message</label>
-        <textarea name="message" id="message" cols="30" rows="10"></textarea>
-        <button type="submit">Submit</button>
+      <form>
+        <!-- <label for="name">Name</label> -->
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your Name"
+          required
+        />
+        <!-- <label for="email">Email</label> -->
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your Email"
+          required
+        />
+        <!-- <label for="message">Message</label> -->
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="3"
+          placeholder="Write Something..."
+        ></textarea>
+        <button class="button" type="submit">Submit</button>
       </form>
     </section>
 
